@@ -8,7 +8,7 @@
         'name': 'entity.name.function.ade8.bold'
     },
     {
-          'match':  '\\W(ands|ANDs|ANDS|Ands|ors|Ors|ORS|ORs|adds|ADDS|Adds|ADDs|subs|SUBs|SUBS|Subs|cmps|CMPS|Cmps|CMPS|ANDi|andi|ANDI|ori|addi|subi|cmpi|NEG|NOT|LDv|SETv|ANDv|ANDv|ORv|ADDv|CMPv|LD|SUBv|ST|LDi|And|or|add|sub|cmp|jmp|JMP|jz|je|jn|jo|jc|jlu|jls|push|pop|call|ret)'
+          'match':  '\\W(ANDs|ORs|ADDs|SUBs|CMPs|ANDi|ORi|ADDi|SUBi|CMPi|NEG|NOT|LDv|SETv|ANDv|AND|ADDv|SUBv|CMPv|LD|ST|LDi|STi|LDs|STs|AND|OR|ADD|SUB|CMP|JMP|JZ/JE|JN|JO|JC|JLu|JLs|PUSH|POP|CALL|RET)'
           'name':   'keyword.control.ade8'
     },
     {
@@ -23,13 +23,8 @@
         'match':  '([A-Z])'
         'name':   'variable.language.ade8'
     },
-
-
     {
       'match':  ';.+'
       'name':   'comment.line.ade8'
     },
-
-
-
 ]
