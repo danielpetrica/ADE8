@@ -1,10 +1,9 @@
 {
   "name": "a-d-e8-pad",
   "main": "./lib/a-d-e8-pad",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "ADE8 (Architettura Di Esempio) grammar language",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "a-d-e8-pad:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
