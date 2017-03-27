@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle a-d-e8-pad",
+        "command": "a-d-e8-pad:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "a-d-e8-pad",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "a-d-e8-pad:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

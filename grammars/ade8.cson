@@ -1,0 +1,35 @@
+'scopeName': 'source.ade8'
+'name': 'ADE8 ISA'
+'fileTypes': ['ade8', 'ade8.txt']
+
+'patterns': [
+    {
+        'match':  '([A-Z])+([a-z])+:|([A-Z])+:'
+        'name': 'entity.name.function.ade8.bold'
+    },
+    {
+          'match':  '\\W(ands|ANDs|ANDS|Ands|ors|Ors|ORS|ORs|adds|ADDS|Adds|ADDs|subs|SUBs|SUBS|Subs|cmps|CMPS|Cmps|CMPS|ANDi|andi|ANDI|ori|addi|subi|cmpi|NEG|NOT|LDv|SETv|ANDv|ANDv|ORv|ADDv|CMPv|LD|SUBv|ST|LDi|And|or|add|sub|cmp|jmp|JMP|jz|je|jn|jo|jc|jlu|jls|push|pop|call|ret)'
+          'name':   'keyword.control.ade8'
+    },
+    {
+        'match':  '([A-Z])+([a-z])+'
+        'name': 'entity.name.function.ade8.bold'
+    },
+    {
+        'match':  '([0])([0123456789abcdefABCDEF])+([hH])'
+        'name':   'constant.numeric.ade8'
+    },
+    {
+        'match':  '([A-Z])'
+        'name':   'variable.language.ade8'
+    },
+
+
+    {
+      'match':  ';.+'
+      'name':   'comment.line.ade8'
+    },
+
+
+
+]
