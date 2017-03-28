@@ -39,4 +39,4 @@ B:  0ffh
 C:  000h
 
 ```
-Screenshot: ![A screenshot of your package](./_documents/screenshot.png )
+Screenshot: ![A screenshot of your package](https://raw.githubusercontent.com/danielpetrica/a-d-e8-pad/master/docs/screenshoot.png)
