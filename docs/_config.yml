@@ -1,5 +1,13 @@
+
+# permalink and highlighter
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : pygments
+
+# SEO settings
+
 title:  A-D-e8-Pad
-permalink : :title/
+
 site-url: danielpetrica.pw/a-d-e8-pad/
 exclude : ['sass', 'config.rb', 'README.md', 'css']
 
