@@ -8,7 +8,7 @@
         'name': 'entity.name.function.ade8.bold'
     },
     {
-          'match':  '\\W(ANDs|ORs|ADDs|SUBs|CMPs|ANDi|ORi|ADDi|SUBi|CMPi|NEG|NOT|LDv|SETv|ANDv|AND|ADDv|SUBv|CMPv|LD|ST|LDi|STi|LDs|STs|AND|OR|ADD|SUB|CMP|JMP|JZ/JE|JN|JO|JC|JLu|JLs|PUSH|POP|CALL|RET)'
+          'match':  '\\W(ANDs|ORs|ADDs|SUBs|CMPs|ANDi|ORi|ADDi|SUBi|LDi|STi|CMPi|LDv|LDs|STs|SETv|ANDv|ADDv|SUBv|CMPv|AND|NEG|NOT|LD|ST|AND|OR|ADD|SUB|CMP|JMP|JZ|JE|JN|JO|JC|JLu|JLs|PUSH|POP|CALL|RET)'
           'name':   'keyword.control.ade8'
     },
     {
