@@ -16,7 +16,7 @@
         'name': 'entity.name.function.ade8.bold'
     },
     {
-        'match':  '([0])([0123456789abcdefABCDEF])+([hH])'
+        'match':  '([0-9])([0123456789abcdefABCDEF])+([hH])'
         'name':   'constant.numeric.ade8'
     },
     {
