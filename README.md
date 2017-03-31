@@ -7,16 +7,28 @@
 
 ## Known bugs:
 - [ ] Not al mnemonic names suported
-  - We support al mnemonic names in the case-sensitive version, present on the 8.6 version manual. Other case versions are not supported yet
+  - We support al mnemonic names in the case-sensitive version, present on the 8.6 version manual, the "All letters uppercase" and alle letters lowercase.
+
+I collori dipendo dal temma scelto.
 
 ## Istruzioni:
 
 Il nome delle ettichette deve iniziare con una lettera maiuscola e finire con ":" se posti davanti a un istruzione, oppure senza ":" se posto come parametro.
+Si possono usare ettichete mono caratere (es: A B C) ma avranno un altro colore rispetto alle altre ettichete.
 
-I nueri esadecimali iniziano con "0" e finiscono con "h". In Mezzo ci vanno le due cifre esadecimali. es: 01ah 011h 0ffh 000h
+I comandi vanno scritti in una delle seguenti tre modalità:
+- Quello presente sul manuale versione 8.6
+- Tutte le lettere in Maiuscolo
+- Tutte le lettere in Minuscolo
+
+
+I nueri esadecimali iniziano con un numero tra "0" e "9" e  possono finire con "h".
+Se il numero esadecimale inizia con lettera va posizionato un zero davanti, esempio:
+ff -> 0ff oppure 0ffh
+ es: 1a 0f1 0ffh 000h
 
 I commenti iniziano con ";" e duranno fino alla fine della riga.
-il file va salvato come file di testo ma in formato .ade8 oppure .ade8.txt
+Il file va salvato come file di testo ma in formato .ade8 oppure .ade8.txt (l'Assemblatore può leggerlo comunque ma questo plugin non lo legge se non ha qeste estensioni)
 
 Una volta salvto il file, va assemblato con l'assemblatore fornito dal prof.
 
@@ -39,4 +51,4 @@ B:  0ffh
 C:  000h
 
 ```
-Screenshot: ![A screenshot of your package](./screenshoot.png)
+Screenshot: ![A screenshot of your package](http://danielpetrica.pw/a-d-e8-pad/screenshoot.png)
