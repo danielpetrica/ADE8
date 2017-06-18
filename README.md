@@ -7,7 +7,7 @@
 
 ## Known bugs:
 - [ ] Not al mnemonic names suported
-  - We support al mnemonic names in the case-sensitive version, present on the 8.6 version manual, the "All letters uppercase" and alle letters lowercase.
+  - We support al mnemonic names in the case-sensitive version, present on the 8.6 version manual, the "All letters uppercase" and all letters lowercase.
 
 I collori dipendo dal temma scelto.
 
@@ -22,7 +22,7 @@ I comandi vanno scritti in una delle seguenti tre modalità:
 - Tutte le lettere in Minuscolo
 
 
-I nueri esadecimali iniziano con un numero tra "0" e "9" e  possono finire con "h".
+I numeri esadecimali iniziano con un numero tra "0" e "9" e  possono finire con "h".
 Se il numero esadecimale inizia con lettera va posizionato un zero davanti, esempio:
 ff -> 0ff oppure 0ffh
  es: 1a 0f1 0ffh 000h
@@ -30,7 +30,7 @@ ff -> 0ff oppure 0ffh
 I commenti iniziano con ";" e duranno fino alla fine della riga.
 Il file va salvato come file di testo ma in formato .ade8 oppure .ade8.txt (l'Assemblatore può leggerlo comunque ma questo plugin non lo legge se non ha qeste estensioni)
 
-Una volta salvto il file, va assemblato con l'assemblatore fornito dal prof.
+Una volta salvato il file, va assemblato con l'assemblatore fornito dal prof.
 
 Esempio di codice
 
