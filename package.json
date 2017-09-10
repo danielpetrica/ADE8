@@ -1,5 +1,5 @@
 {
-  "name": "a-d-e8-pad",
+  "name": "ade8",
   "main": "./lib/a-d-e8-pad",
   "version": "2.0.0",
   "description": "ADE8 (Architettura Di Esempio) grammar language",
