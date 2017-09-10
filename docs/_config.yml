@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # permalink and highlighter
 permalink   : /:year/:title/
@@ -25,3 +26,34 @@ seo:
 
 gems:
   - jekyll-sitemap
+=======
+
+# permalink and highlighter
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : pygments
+
+# SEO settings
+
+title:  A-D-e8-Pad
+
+site-url: danielpetrica.pw/a-d-e8-pad/
+exclude : ['sass', 'config.rb', 'README.md', 'css']
+
+author:
+  name: Andrei-Daniel Petrica
+  weebsite:   http://danielpetrica.pw/
+  socials:
+    twitter:  https://twitter.com/daniel_petrica
+    linkedin: https://it.linkedin.com/in/petricadaniel
+    github:   https://github.com/danielpetrica
+    telegram: https://t.me/Daniel_Petrica
+
+seo:
+  keywords: Ade8, Atom.io Plugin, assembly, highlighter
+
+gems:
+  - jekyll-sitemap
+
+theme: jekyll-theme-architect
+>>>>>>> b2de86fe22d64ba70134372b91c91efdb7dd7ad9

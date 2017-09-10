@@ -6,7 +6,7 @@
 
 
 ## Known bugs:
-- [ ] Not al mnemonic names suported
+- [ x ] Not al mnemonic names suported
   - We support al mnemonic names in the case-sensitive version, present on the 8.6 version manual, the "All letters uppercase" and all letters lowercase.
 
 I collori dipendo dal temma scelto.
