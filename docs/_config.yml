@@ -25,3 +25,5 @@ seo:
 
 gems:
   - jekyll-sitemap
+
+theme: jekyll-theme-architect
