@@ -55,5 +55,5 @@ seo:
 gems:
   - jekyll-sitemap
 
-theme: jekyll-theme-architect
+theme: jekyll-theme-minimal
 >>>>>>> b2de86fe22d64ba70134372b91c91efdb7dd7ad9
